@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01799BC16107F4600D70257 /* imamoe2-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C01799BB16107F4600D70257 /* imamoe2-568h@2x.png */; };
 		C0E39BDD1610557A00FE570E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E39BDC1610557A00FE570E /* UIKit.framework */; };
 		C0E39BDF1610557A00FE570E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E39BDE1610557A00FE570E /* Foundation.framework */; };
 		C0E39BE11610557A00FE570E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E39BE01610557A00FE570E /* CoreGraphics.framework */; };
@@ -18,9 +19,19 @@
 		C0E39BF31610557A00FE570E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E39BF21610557A00FE570E /* Default-568h@2x.png */; };
 		C0E39BF61610557A00FE570E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0E39BF41610557A00FE570E /* MainStoryboard.storyboard */; };
 		C0E39BF91610557A00FE570E /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E39BF81610557A00FE570E /* ClockViewController.m */; };
+		C0E39C09161056BC00FE570E /* JDDateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E39C01161056BC00FE570E /* JDDateCountdownFlipView.m */; };
+		C0E39C0A161056BC00FE570E /* JDFlipNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0E39C02161056BC00FE570E /* JDFlipNumberView.bundle */; };
+		C0E39C0B161056BC00FE570E /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E39C04161056BC00FE570E /* JDFlipNumberView.m */; };
+		C0E39C0C161056BC00FE570E /* JDGroupedFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E39C06161056BC00FE570E /* JDGroupedFlipNumberView.m */; };
+		C0E39C0D161056BC00FE570E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C0E39C07161056BC00FE570E /* LICENSE */; };
+		C0E39C0E161056BC00FE570E /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = C0E39C08161056BC00FE570E /* readme.md */; };
+		C0E39C101610590800FE570E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E39C0F1610590700FE570E /* QuartzCore.framework */; };
+		C0E39C131610594D00FE570E /* imamoe2.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E39C111610594D00FE570E /* imamoe2.png */; };
+		C0E39C141610594D00FE570E /* imamoe2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0E39C121610594D00FE570E /* imamoe2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C01799BB16107F4600D70257 /* imamoe2-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imamoe2-568h@2x.png"; sourceTree = "<group>"; };
 		C0E39BD81610557A00FE570E /* imamoeclock2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imamoeclock2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E39BDC1610557A00FE570E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C0E39BDE1610557A00FE570E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +48,18 @@
 		C0E39BF51610557A00FE570E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C0E39BF71610557A00FE570E /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
 		C0E39BF81610557A00FE570E /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		C0E39C00161056BC00FE570E /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDateCountdownFlipView.h; sourceTree = "<group>"; };
+		C0E39C01161056BC00FE570E /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDateCountdownFlipView.m; sourceTree = "<group>"; };
+		C0E39C02161056BC00FE570E /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
+		C0E39C03161056BC00FE570E /* JDFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberView.h; sourceTree = "<group>"; };
+		C0E39C04161056BC00FE570E /* JDFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberView.m; sourceTree = "<group>"; };
+		C0E39C05161056BC00FE570E /* JDGroupedFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDGroupedFlipNumberView.h; sourceTree = "<group>"; };
+		C0E39C06161056BC00FE570E /* JDGroupedFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDGroupedFlipNumberView.m; sourceTree = "<group>"; };
+		C0E39C07161056BC00FE570E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C0E39C08161056BC00FE570E /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = "<group>"; };
+		C0E39C0F1610590700FE570E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0E39C111610594D00FE570E /* imamoe2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imamoe2.png; sourceTree = "<group>"; };
+		C0E39C121610594D00FE570E /* imamoe2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "imamoe2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E39C101610590800FE570E /* QuartzCore.framework in Frameworks */,
 				C0E39BDD1610557A00FE570E /* UIKit.framework in Frameworks */,
 				C0E39BDF1610557A00FE570E /* Foundation.framework in Frameworks */,
 				C0E39BE11610557A00FE570E /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +80,7 @@
 		C0E39BCD1610557A00FE570E = {
 			isa = PBXGroup;
 			children = (
+				C0E39BFF161056BC00FE570E /* JDFlipNumberView */,
 				C0E39BE21610557A00FE570E /* imamoeclock2 */,
 				C0E39BDB1610557A00FE570E /* Frameworks */,
 				C0E39BD91610557A00FE570E /* Products */,
@@ -73,6 +98,7 @@
 		C0E39BDB1610557A00FE570E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0E39C0F1610590700FE570E /* QuartzCore.framework */,
 				C0E39BDC1610557A00FE570E /* UIKit.framework */,
 				C0E39BDE1610557A00FE570E /* Foundation.framework */,
 				C0E39BE01610557A00FE570E /* CoreGraphics.framework */,
@@ -83,6 +109,9 @@
 		C0E39BE21610557A00FE570E /* imamoeclock2 */ = {
 			isa = PBXGroup;
 			children = (
+				C0E39C111610594D00FE570E /* imamoe2.png */,
+				C0E39C121610594D00FE570E /* imamoe2@2x.png */,
+				C01799BB16107F4600D70257 /* imamoe2-568h@2x.png */,
 				C0E39BEB1610557A00FE570E /* ClockAppDelegate.h */,
 				C0E39BEC1610557A00FE570E /* ClockAppDelegate.m */,
 				C0E39BF41610557A00FE570E /* MainStoryboard.storyboard */,
@@ -105,6 +134,22 @@
 				C0E39BF21610557A00FE570E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0E39BFF161056BC00FE570E /* JDFlipNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				C0E39C00161056BC00FE570E /* JDDateCountdownFlipView.h */,
+				C0E39C01161056BC00FE570E /* JDDateCountdownFlipView.m */,
+				C0E39C02161056BC00FE570E /* JDFlipNumberView.bundle */,
+				C0E39C03161056BC00FE570E /* JDFlipNumberView.h */,
+				C0E39C04161056BC00FE570E /* JDFlipNumberView.m */,
+				C0E39C05161056BC00FE570E /* JDGroupedFlipNumberView.h */,
+				C0E39C06161056BC00FE570E /* JDGroupedFlipNumberView.m */,
+				C0E39C07161056BC00FE570E /* LICENSE */,
+				C0E39C08161056BC00FE570E /* readme.md */,
+			);
+			path = JDFlipNumberView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +209,12 @@
 				C0E39BF11610557A00FE570E /* Default@2x.png in Resources */,
 				C0E39BF31610557A00FE570E /* Default-568h@2x.png in Resources */,
 				C0E39BF61610557A00FE570E /* MainStoryboard.storyboard in Resources */,
+				C0E39C0A161056BC00FE570E /* JDFlipNumberView.bundle in Resources */,
+				C0E39C0D161056BC00FE570E /* LICENSE in Resources */,
+				C0E39C0E161056BC00FE570E /* readme.md in Resources */,
+				C0E39C131610594D00FE570E /* imamoe2.png in Resources */,
+				C0E39C141610594D00FE570E /* imamoe2@2x.png in Resources */,
+				C01799BC16107F4600D70257 /* imamoe2-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +228,9 @@
 				C0E39BE91610557A00FE570E /* main.m in Sources */,
 				C0E39BED1610557A00FE570E /* ClockAppDelegate.m in Sources */,
 				C0E39BF91610557A00FE570E /* ClockViewController.m in Sources */,
+				C0E39C09161056BC00FE570E /* JDDateCountdownFlipView.m in Sources */,
+				C0E39C0B161056BC00FE570E /* JDFlipNumberView.m in Sources */,
+				C0E39C0C161056BC00FE570E /* JDGroupedFlipNumberView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +346,7 @@
 				C0E39BFE1610557A00FE570E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

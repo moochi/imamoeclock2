@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JDGroupedFlipNumberView.h"
 
-@interface ClockViewController : UIViewController
+@interface ClockViewController : UIViewController <JDGroupedFlipNumberViewDelegate>
 
 @end
