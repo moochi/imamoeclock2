@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="11G56" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
     </dependencies>
@@ -27,32 +27,30 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="7B6-Ez-oHb" firstAttribute="top" secondItem="Otc-A5-c56" secondAttribute="top" type="default" id="GrQ-6N-D6E"/>
+                                    <constraint firstItem="KPU-RO-6A2" firstAttribute="top" secondItem="Otc-A5-c56" secondAttribute="top" constant="57" id="6Hu-um-ajD"/>
+                                    <constraint firstAttribute="bottom" secondItem="KPU-RO-6A2" secondAttribute="bottom" constant="75" id="GKh-8G-9KU"/>
+                                    <constraint firstAttribute="trailing" secondItem="7B6-Ez-oHb" secondAttribute="trailing" constant="197" id="Hfm-LF-fXW"/>
                                     <constraint firstItem="7B6-Ez-oHb" firstAttribute="leading" secondItem="Otc-A5-c56" secondAttribute="leading" constant="74" id="M2B-NC-yqa"/>
-                                    <constraint firstItem="KPU-RO-6A2" firstAttribute="top" secondItem="Otc-A5-c56" secondAttribute="top" constant="58" id="Ntz-1A-knf"/>
+                                    <constraint firstItem="KPU-RO-6A2" firstAttribute="top" secondItem="7B6-Ez-oHb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="NxM-05-prT"/>
+                                    <constraint firstItem="Chk-VT-dV4" firstAttribute="bottom" secondItem="7B6-Ez-oHb" secondAttribute="bottom" type="default" id="UcV-uG-tph"/>
                                     <constraint firstItem="KPU-RO-6A2" firstAttribute="leading" secondItem="Otc-A5-c56" secondAttribute="leading" constant="95" id="Zgz-mR-g77"/>
                                     <constraint firstAttribute="trailing" secondItem="Chk-VT-dV4" secondAttribute="trailing" constant="261" id="bsE-2k-QDh"/>
                                     <constraint firstItem="Chk-VT-dV4" firstAttribute="leading" secondItem="Otc-A5-c56" secondAttribute="leading" constant="10" id="gax-Wn-FNt"/>
-                                    <constraint firstItem="KPU-RO-6A2" firstAttribute="trailing" secondItem="7B6-Ez-oHb" secondAttribute="trailing" type="default" id="iBP-Gl-1dW"/>
-                                    <constraint firstAttribute="trailing" secondItem="7B6-Ez-oHb" secondAttribute="trailing" constant="197" id="jT8-36-GX8"/>
-                                    <constraint firstAttribute="bottom" secondItem="KPU-RO-6A2" secondAttribute="bottom" constant="5" type="user" id="lTG-Vg-Mg6"/>
+                                    <constraint firstItem="7B6-Ez-oHb" firstAttribute="top" secondItem="Otc-A5-c56" secondAttribute="top" type="default" id="mJn-Ed-mh7"/>
                                     <constraint firstItem="Chk-VT-dV4" firstAttribute="top" secondItem="Otc-A5-c56" secondAttribute="top" type="default" id="meY-2l-Woj"/>
-                                    <constraint firstItem="Chk-VT-dV4" firstAttribute="bottom" secondItem="7B6-Ez-oHb" secondAttribute="bottom" type="default" id="mlB-hx-W4z"/>
-                                    <constraint firstItem="KPU-RO-6A2" firstAttribute="top" secondItem="7B6-Ez-oHb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="oBn-5m-Agc"/>
+                                    <constraint firstItem="KPU-RO-6A2" firstAttribute="trailing" secondItem="7B6-Ez-oHb" secondAttribute="trailing" type="default" id="soq-BX-rzC"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Otc-A5-c56" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="8Sk-In-63V"/>
-                            <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="Otc-A5-c56" secondAttribute="bottom" constant="190" type="user" id="ArH-qU-F8L"/>
-                            <constraint firstItem="5aw-SQ-MeH" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="DY1-Vs-c7r"/>
-                            <constraint firstItem="Otc-A5-c56" firstAttribute="top" secondItem="3" secondAttribute="top" constant="147" id="PDx-0i-KsD"/>
-                            <constraint firstItem="5aw-SQ-MeH" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="c7z-tZ-f0l"/>
-                            <constraint firstAttribute="bottom" secondItem="Otc-A5-c56" secondAttribute="bottom" constant="190" id="kO1-4h-tG8"/>
+                            <constraint firstItem="Otc-A5-c56" firstAttribute="top" secondItem="3" secondAttribute="top" constant="170" id="YFX-0a-dRr"/>
                             <constraint firstItem="5aw-SQ-MeH" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="ly8-6a-vib"/>
-                            <constraint firstItem="5aw-SQ-MeH" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="sr0-pJ-WI7"/>
                             <constraint firstItem="Otc-A5-c56" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="t8k-eb-L9i"/>
+                            <constraint firstItem="5aw-SQ-MeH" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="wFg-f1-hT5"/>
+                            <constraint firstAttribute="bottom" secondItem="Otc-A5-c56" secondAttribute="bottom" constant="130" id="wa3-xh-6sR"/>
+                            <constraint firstItem="5aw-SQ-MeH" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="wbU-Yi-OP1"/>
                         </constraints>
                     </view>
                     <connections>
